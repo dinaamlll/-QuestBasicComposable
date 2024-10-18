@@ -84,6 +84,16 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             color = Color.Red
         )
         Spacer(modifier = Modifier.height(5.dp))
+
+        // NIM Text
+        Text(
+            text = "20220140179",
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold
+        )
+
+        Spacer(modifier = Modifier.height(20.dp))
+
         @Composable
         fun Greeting(name: String, modifier: Modifier = Modifier) {
             Text(
