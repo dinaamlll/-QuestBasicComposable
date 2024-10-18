@@ -70,7 +70,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.logo), // Make sure this image exists
             contentDescription = "Logo UMY",
-            modifier = Modifier.size(180.dp)
+            modifier = Modifier.size(250.dp)
         )
         Spacer(modifier = Modifier.height(5.dp))
 
