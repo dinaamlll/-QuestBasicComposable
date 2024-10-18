@@ -6,7 +6,9 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -49,6 +51,14 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
 
         )
+
+        Spacer(modifier = Modifier.height(3.dp))
+        Text(
+            text = "Ini adalah halaman login",
+            fontSize = 18.sp
+        )
+        Spacer(modifier = Modifier.height(40.dp))
+
         @Composable
         fun Greeting(name: String, modifier: Modifier = Modifier) {
             Text(
