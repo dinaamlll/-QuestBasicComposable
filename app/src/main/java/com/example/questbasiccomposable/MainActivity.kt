@@ -98,7 +98,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.dina),
             contentDescription = "",
             modifier = Modifier
-                .size(400.dp)
+                .size(350.dp)
                 .offset(y = 25.dp)
                 .clip(CircleShape)
         )
