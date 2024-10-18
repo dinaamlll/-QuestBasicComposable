@@ -70,6 +70,12 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(5.dp))
 
+        // Nama Text
+        Text(
+            text = "Nama",
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Normal
+        )
 
         @Composable
         fun Greeting(name: String, modifier: Modifier = Modifier) {
