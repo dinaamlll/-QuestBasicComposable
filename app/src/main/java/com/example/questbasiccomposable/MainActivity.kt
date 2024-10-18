@@ -29,7 +29,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+@Composable
+fun BasicColumn(modifier: Modifier = Modifier) {
 
+}
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
