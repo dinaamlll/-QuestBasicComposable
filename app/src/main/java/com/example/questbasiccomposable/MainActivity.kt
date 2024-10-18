@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
@@ -97,7 +98,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.dina),
             contentDescription = "",
             modifier = Modifier
-                .size(300.dp)
+                .size(400.dp)
+                .offset(y = 25.dp)
                 .clip(CircleShape)
         )
     }
